@@ -27,5 +27,8 @@
     </ion-card-content>
   </ion-card>
 
-  <h1 *ngIf="bmi">Your BMI is: {{ bmi }}</h1>
+  <div *ngIf="BMI" text-center>
+      <h1>Your BMI is: {{ BMI.BMI }}</h1>
+      <h1>This is classified as: {{ BMI.classification }}</h1>
+  </div>
 </ion-content>
