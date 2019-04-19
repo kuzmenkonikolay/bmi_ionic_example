@@ -5,7 +5,6 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 import { StatusBar } from '@ionic-native/status-bar';
 
 import { MyApp } from './app.component';
-// import { BmiPage } from '../pages/bmi/bmi';
 
 @NgModule({
   declarations: [
